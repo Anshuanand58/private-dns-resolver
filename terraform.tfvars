@@ -1,0 +1,9 @@
+location            = "Central india"
+resource_group_name = "dns-rg"
+dns_resolver_name   = "dns-resolver"
+# inbound_endpoint_ip  = ["10.1.2.4"]
+# outbound_endpoint_ip = ["10.1.3.4"]
+private_dns_zone_name = "mypvtdns.com"
+inbound_ruleset       = "DC-to-Azure"
+outbound_ruleset      = "Azure-to-DC"
+virtual_network_name  = "dns-vnet"
